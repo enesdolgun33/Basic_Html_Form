@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigorta Formu</title>
+</head>
+<body style="background-color: bisque; text-align: center;">
+    <h1>Sigorta Formu</h1>
+    <form action="">
+        <label for="isim">Ad :</label>
+        <input style="background-color: beige;" type="text" name="isim" id="isim"
+        placeholder="Ahmet"
+        required>
+        
+        <br><br>
+        
+        <label for="soyad">Soyad :</label>
+        <input style="background-color: beige;" type="text" name="soyad" id="soyad"
+        placeholder="Çakar"
+        required>
+        
+        <br><br>
+
+        <label for="sifre">Şifre :</label>
+        <input style="background-color: beige;" type="password" name="sifre" id="sifre"
+        required
+        maxlength="15">
+        <br><br>
+
+        <label for="eposta">E-posta :</label>
+        <input style="background-color: beige;" type="email" name="eposta" id="eposta" 
+        placeholder="ahmetgothecakar@gmail.com" 
+        required> <br><br>
+
+        <label for="telno">Telefon :</label>
+        <input  style="background-color: beige;" type="tel" name="telno" id="telno"
+        placeholder="(531)-331-3131"
+        required> <br><br>
+
+        <label for="tarih">Doğum günü :</label>
+        <input  style="background-color: beige;" type="date" name="tarih" id="tarih"> <br><br>
+
+        <label for="kardes">Kardeş Sayısı :</label>
+        <input style="background-color: beige;"  type="number" name="kardes" id="kardes"
+        min="0" max="30"> <br><br>
+
+        <label for="cinsiyet">Cinsiyet :</label>
+        <label for="Kadın">Kadın</label>
+        <input  style="background-color: beige;" type="radio" name="cinsiyet" id="Kadın" value="kadın">
+        <label for="Erkek">Erkek</label>
+        <input  style="background-color: beige;" type="radio" name="cinsiyet" id="Erkek" value="erkek">
+        <br><br>
+
+        <select  style="background-color: beige;" name="" id="">
+            <option value="ssk">SSK</option>
+            <option value="bagkur">Bağkur</option>
+            <option value="emekli">Emekli Sandığı</option>
+        </select>
+        <br><br>
+        
+        <label for="">Aktif calısıyor</label>
+        <input  style="background-color: beige;" type="checkbox">
+        <br><br>
+
+        <textarea 
+        style="background-color:beige ;"
+        name="" id="" 
+        cols="15"
+        rows="5"></textarea>
+        <br><br>
+
+        <input style="color: rebeccapurple;" type="file" accept=".pdf">
+
+        <br><br>
+        <input  style="background-color: red;" type="reset">
+        <input  style="background-color: green;" type="submit">
+    </form>
+</body>
+</html>
